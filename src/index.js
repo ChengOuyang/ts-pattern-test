@@ -4,6 +4,14 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
+const tsPattern = require('ts-pattern');
+// tsPattern is a string but accept an module
+console.log('tsPattern = ', tsPattern);
+
+const zod = require('zod');
+// zod is an module as accept
+console.log('zod = ', zod);
+
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
